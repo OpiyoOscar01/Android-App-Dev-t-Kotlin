@@ -3,6 +3,12 @@ fun main(){
     userName="Mary";
     println("Hello $userName") ;
     println("It's amazing how Kotlin is easy to learn")
+    val isStudent:Boolean=true;
+    if(isStudent){
+        println("I'm a student") ;
+    }
+
+
 }
 /**
  * | Type | Keyword | Example |
