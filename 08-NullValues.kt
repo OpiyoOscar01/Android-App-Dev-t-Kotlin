@@ -19,9 +19,15 @@ fun main() {
         println("Your name is $it")
         println("Your name is ${it.uppercase()}")
         println(it.length)
-    }
+    } ?:
+    println("No name provided")
     var message=name?: println("Your name is not found")
     println(message)
     println(handleNullable(null))
     println(handleNullable("Hello"))
+
+    var age:Int?=null;
+    var middleName:String?=null;
+    var statment:String= (middleName?:println("No middle Name")).toString();
+    print(statment);
 }

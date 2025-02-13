@@ -6,6 +6,7 @@ fun main(){
     val isStudent:Boolean=true;
     if(isStudent){
         println("I'm a student") ;
+        println("Hello.I am a student!");
     }
 
 

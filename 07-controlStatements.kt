@@ -29,6 +29,11 @@ fun main(){
         println("Counter: $i")
     }
 
+    for(i in 1..8){
+        println("Number $i");
+    }
+
+
 // while loop
     var x = 5
     while (x > 0) {
