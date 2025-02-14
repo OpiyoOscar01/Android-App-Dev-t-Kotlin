@@ -1,6 +1,6 @@
 package OOP
 
-class Car {
+class VCar {
     var name="";
     var model=""
     var door=0;
@@ -14,7 +14,7 @@ class Car {
 }
 
 fun main(){
-    val car1= Car();
+    val car1= VCar();
     car1.model="Sp 01"
     car1.door=4;
     car1.name="Tesla"
