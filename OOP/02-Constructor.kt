@@ -1,7 +1,7 @@
 package OOP
 
 fun main() {
-    val car1= Car("Tesla","S123",4);
+    val car1= Car("Tesla    ","S123",4);
     println("Name: ${car1.name}")
     println("Model: ${car1.model}")
     println("Doors: ${car1.doors}")
@@ -9,7 +9,8 @@ fun main() {
     car1.stop()
 
 }
-class  Car(var name:String, var model:String,var doors:Int){
+class  Car(name:String, var model:String,var doors:Int){
+    var name=name.trim()
     fun move(){
         println("$name is moving");
     }
